@@ -101,4 +101,4 @@ myBot.on('message', message => {
 
 //token//
 
-myBot.login('NTU1MTE4OTcxMDQxNjExNzc3.D2micw.v-2vACX099zBwdnOCo869FFuKyY');
+myBot.login(process.env.TOKEN);
